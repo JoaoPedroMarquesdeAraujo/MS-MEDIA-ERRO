@@ -1,0 +1,444 @@
+
+#paleta{color:#cfc8c1;
+     color: #151a1b
+     #69625c
+     #3e3833
+     #848c8c
+     #84848c
+     #4c5453
+     #8c6449
+     #4c4c54
+    
+    
+    }
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2c2c2c;
+}
+.flexblox{
+    display: flex;
+}
+header{
+    height: 900px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+nav{
+    margin-left: 10%;
+    margin-top: 50px;
+    z-index: 1;
+    position: absolute;
+    width: 90%;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    background-color: #252525;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    border-radius: 6px;
+}
+nav ul li{
+    padding: 4px;
+}
+nav ul li a{
+    display: inline-block;
+    padding: 10px 0px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 8px;
+    text-transform: capitalize;
+    font-size: 3vh;
+}
+nav ul li a:hover{
+    display: inline-block;
+    color: #000;
+    background-color: #fff;
+    text-decoration: none;
+}
+.button{
+    display: inline-block;
+    background-color: rgb(197, 169, 7);
+    color: #fff;
+    padding: 4px;
+    text-decoration: none;
+    border-radius: 6px;
+    justify-self: center;
+    font-size: 1.5em;
+}
+.button:hover{
+    display: inline-block;
+    background-color: #fff;
+    color: #c5a907;
+    padding: 4px;
+    text-decoration: none;
+    border-radius: 6px;
+    justify-self: center;
+}
+#image{
+    background: url(imgs/barbearia32.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding: 1%;
+    margin-bottom: 20px;
+    background-color: #242424;
+}
+
+.abrangente{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+
+
+
+
+.cortes-pedidos{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-around;
+    min-width:60%;
+    flex-basis: 60%;
+    
+}
+
+
+
+.corte{
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    margin: 1%; 
+    flex-basis: calc(60%/6 );
+    background-color: #242424;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 6px;
+    color: #ff0000e7;
+    
+}
+
+/*
+.corte h4{
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 25%;
+}
+.corte-texto{
+    margin-top: 1%;
+    padding: 12px;
+}
+.corte-texto h4{
+    text-align: center;
+}
+
+
+*/
+
+.sobre{
+    color:white;
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #141414; ;
+   
+    align-content: space-around;
+    max-width: 40%;
+    min-width: 30%;
+    margin-bottom: 20px;
+}
+ 
+.sobre img{display: block;
+margin:0 auto;}
+
+
+.sobre h5{font-size: 50px;
+    text-align: center;
+    flex-basis: 30%;
+    align-self: center;
+}
+
+
+.sobre p {font-size: 20px;
+margin-left: 10px;
+margin-right: 10px;
+width: 60%;
+padding: 2%;
+text-align: justify;}
+
+.border-barbers {
+    display: flex;
+    flex-direction:  row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    border: solid #242424;
+    min-height: 50px;
+    text-align: center;
+    padding:10px;
+    background-color:  #242424;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.border-barbers h4 {font-size: 40px;
+color: whitesmoke;}
+
+
+
+#barbers
+{display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-around;
+align-items: center;
+align-content: center;
+min-height: 350px;
+margin: 0 auto;
+}
+/*
+div.barber {
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-basis: calc(100/3);
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    border: solid  #3e3833;
+    max-width: 250px;
+    background-color: white;
+
+
+}
+
+.barber img {
+    margin-right: 4%;
+}
+
+.barber img {display: flex;
+flex-basis: 50%;}
+
+.barber h4 { flex-basis: 25%;}
+
+
+
+
+.barber h5 {font-size: 30px ; 
+   }
+
+.barber a {text-decoration: none;
+    color: white;}*/
+
+
+
+
+
+
+
+footer {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    align-content: center;
+    color: white; 
+    background-color:#242424;
+    }
+
+footer section{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-basis: calc(100%/3);
+
+
+       
+          
+}
+
+footer section p {flex-wrap: wrap;}
+footer section h5 {
+     align-items: center;
+    font-size: 24px;}
+footer section  a{text-decoration: none;
+color: white;}
+footer section p a:hover{ 
+            color: #8c6449;
+           
+            display: block;
+            transform: scale(1,1);
+           
+            }
+            
+footer section p.social {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-content: center;
+          
+
+            
+}
+
+
+
+
+#mol {
+    margin-left: 10px ; 
+    margin-right: 10px;
+    margin-top: 6px;
+    margin-bottom: 3px ;}
+
+#miif {
+    text-align: center;
+}
+
+
+
+
+
+
+
+/*desktop*/
+@media screen and (max-width: 1000px){
+    #image{
+        background: url(imgs/header-IMG.jpg) no-repeat;
+    }
+}
+
+
+
+/*tablet*/
+@media screen and (max-width: 760px){
+    #image{
+        background: url(imgs/header-IMG.jpg) no-repeat;
+    }
+}
+
+@media screen and (max-width: 320px){
+
+    .corte img{width: 85px;
+    }  
+}
+/*mobile*/
+@media screen and (max-width: 425px){
+
+
+    html{width:100%;}
+
+    body{
+    
+    margin-left: 5px;}
+
+    header {height: 450px;}
+
+    footer{height: px;}
+
+
+    footer{display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 95%;
+            font-size: 0.8em;
+            
+        
+        }
+    footer section p{
+        padding-left: 3px ;
+        font-size: 0.7em;
+    }
+
+    
+
+
+    #image{
+        background: url(imgs/320.jpg) no-repeat;
+        
+    }
+
+    nav ul.flexblox{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 150px;
+        flex-wrap: wrap;}
+
+    
+    
+
+    .button{ font-size: 1.2em;
+        padding: 2px;}
+    
+
+    nav ul li a{text-transform: capitalize;
+        font-size: 0.9em;}
+
+    .icon-header{display: none;}
+
+    .abrangente{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+    .cortes-pedidos{display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 320px;
+    
+
+}
+    
+.corte img{width: 89px;
+margin-left: 4px;}
+
+div.sobre{max-width: 310px;
+    text-align: center;
+    
+}
+
+div.sobre p {width: 300px;}
+
+#barbers{display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-content: center;
+justify-content: center;}
+
+
+
+
+}
